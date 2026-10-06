@@ -1,0 +1,20 @@
+{
+  "description": "",
+  "eventListeners": {},
+  "events": {},
+  "imports": {
+    "components": {
+      "oj-list-item-layout": {
+        "path": "ojs/ojlistitemlayout"
+      },
+      "oj-list-view": {
+        "path": "ojs/ojlistview"
+      },
+      "oj-sp-expandable-list-item": {
+        "path": "oj-sp/expandable-list-item/loader"
+      }
+    }
+  },
+  "types": {},
+  "variables": {}
+}

@@ -1,0 +1,26 @@
+<div class="oj-flex">
+  <oj-list-view class="oj-flex-item oj-sm-12 oj-md-12 oj-listview-full-width">
+    <template slot="itemTemplate">
+      section-3 hello printed packages
+      <oj-list-item-layout>
+<!-- Remove span with class for icon and replace with img to directly use an image -->
+<!--img src="[[ $current.data.image ]]" slot="leading" width="32" height="32"/-->
+        <div slot="leading">
+          <span role="img" :class="[[ $current.data.icon ]]"></span>
+        </div>
+        <div>
+          <oj-bind-text value="[[ $current.data.default ]]"></oj-bind-text>
+        </div>
+        <div slot="secondary">
+          <oj-bind-text value="[[ $current.data.secondary ]]"></oj-bind-text>
+        </div>
+        <div slot="tertiary">
+          <oj-bind-text value="[[ $current.data.tertiary ]]"></oj-bind-text>
+        </div>
+        <div slot="metadata">
+          <oj-bind-text value="[[ $current.data.metadata ]]"></oj-bind-text>
+        </div>
+      </oj-list-item-layout>
+    </template>
+  </oj-list-view>
+</div>

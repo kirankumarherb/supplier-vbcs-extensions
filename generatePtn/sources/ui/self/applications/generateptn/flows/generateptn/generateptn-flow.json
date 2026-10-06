@@ -1,0 +1,8 @@
+{
+  "id": "generateptn",
+  "description": "Flow main",
+  "defaultPage": "generate-ptn",
+  "services": {},
+  "types": {},
+  "variables": {}
+}

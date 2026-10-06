@@ -1,0 +1,24 @@
+<!-- Dynamic Container Templates -->
+
+<template id="template1">
+  <oj-sp-section section-title="[['Order Details']]" id="od1">
+    <oj-vb-fragment bridge="[[vbBridge]]" name="site_GeneratePTN:orderdetails"></oj-vb-fragment>
+    
+      
+    
+  </oj-sp-section>
+</template>
+
+<template id="template2">
+  <oj-sp-section section-title="[['Item Details']]">
+    <oj-vb-fragment bridge="[[vbBridge]]" name="site_GeneratePTN:itemdetails"></oj-vb-fragment>
+    
+  </oj-sp-section>
+</template>
+
+<template id="template3">
+  <oj-sp-section section-title="[['Printed Packages']]">
+    <oj-vb-fragment bridge="[[vbBridge]]" name="site_GeneratePTN:printedpackages"></oj-vb-fragment>
+    
+  </oj-sp-section>
+</template>

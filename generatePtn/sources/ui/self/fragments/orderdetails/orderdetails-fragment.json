@@ -1,0 +1,19 @@
+{
+  "description": "",
+  "eventListeners": {},
+  "events": {},
+  "imports": {
+    "components": {
+      "oj-form-layout": {
+        "path": "ojs/ojformlayout"
+      }
+    }
+  },
+  "types": {},
+  "variables": {},
+  "@dt": {
+    "implements": [
+      "FoldoutPanelElement"
+    ]
+  }
+}

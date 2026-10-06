@@ -1,0 +1,14 @@
+{
+  "id": "generateptn",
+  "urlId": "x-GeneratePTN",
+  "description": "An App UI",
+  "defaultFlow": "generateptn",
+  "events": {},
+  "types": {},
+  "variables": {},
+  "eventListeners": {},
+  "unifiedAppSettings": {
+    "displayName": "generateptn"
+  },
+  "security": {}
+}

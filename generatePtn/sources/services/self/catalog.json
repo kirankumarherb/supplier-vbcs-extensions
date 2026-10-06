@@ -1,0 +1,8 @@
+{
+    "backends": {
+        "EnterpriseDevGETMany": {
+            "description": "Enterprise Dev GET Many",
+            "servers": []
+        }
+      }
+}
